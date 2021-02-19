@@ -1,16 +1,19 @@
 a {
     text-decoration: none;
+}
+
+a:visited {
     color: #000000;
-    font-weight: 500;
 }
 
 .active {
     font-weight: 700;
     font-size: 1.2em;
+    color: #404040;
 }
 
 .container {
-    margin: auto 1em;
+    margin: auto 0.8em;
     text-align: center;
 }
 
@@ -19,17 +22,15 @@ body {
     font-size: 16px;
 }
 
-
 .nav-wrap {
     display: flex;
     flex-direction: row-reverse;
 }
 
 .right-end {
-    margin: 2em 15em 0 0;
+    margin: 2em auto 0 auto;
     justify-content: space-around;
 }
-
 
 .img-title-wrapper {
     margin: 3em auto 0 auto;
@@ -40,19 +41,12 @@ body {
     font-weight: 700;
     margin-top: 0.8em;
     letter-spacing: 0.05em;
+    color: #404040;
 }
 
 .img-title-wrapper img {
     border-radius: 50%;
     width: 8em;
-}
-
-.paragraph-wrapper {
-    font-size: 1.2em;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 0.01em;
 }
 
 .icons-wrapper {
@@ -70,6 +64,22 @@ body {
     width: 1.8em;
 }
 
+.paragraph-wrapper {
+    font-size: 1.2em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+.paragraph-wrapper a {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.paragraph-wrapper a:hover {
+    border-bottom: 1px solid #000000;
+}
+
 footer {
     margin-top: 2em;
     font-weight: 300;
@@ -77,22 +87,90 @@ footer {
 }
 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
+    .container {
+        margin: auto 1em;
+    }
 
-/* Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {...}*/
+    .right-end {
+        margin: 2em auto 0 auto;
+    }
+
+    .img-title-wrapper {
+        margin: 4em auto 0 auto;
+    }
+
+    .img-title-wrapper h1 {
+        font-size: 1.7em;
+        margin-top: 1em;
+    }
+
+    .img-title-wrapper img {
+        border-radius: 50%;
+        width: 10em;
+    }
+
+    .icons-wrapper {
+        margin: 3em 15em 0 15em;
+    }
+
+    .icons-wrapper > a {
+        margin: auto 0.8em;
+    }
+
+    .icons-wrapper > a > img {
+        width: 2em;
+    }
+
+    .paragraph-wrapper {
+        margin: auto 1em;
+        font-size: 1.4em;
+        letter-spacing: 0.03em;
+    }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
     .container {
-        margin: auto 5em;
-        text-align: center;
+        margin: auto 2em;
     }
 
-    body {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+    .right-end {
+        margin: 2em auto 0 auto;
+    }
+
+    .img-title-wrapper h1 {
+        font-size: 1.8em;
+    }
+
+    .paragraph-wrapper {
+        margin: auto 2em;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+
+    .paragraph-wrapper {
+        margin: auto 5em;
+        font-size: 1.5em;
+        text-align: justify;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+     .container {
+        margin: auto 5em;
+    }
+
+    .right-end {
+        margin: 2em 15em 0 auto;
     }
 
     .img-title-wrapper {
@@ -100,10 +178,8 @@ footer {
     }
 
     .img-title-wrapper h1 {
-        font-weight: 700;
-        margin-top: 1em;
-        letter-spacing: 0.05em;
         font-size: 2em;
+        margin-top: 1em;
     }
 
     .img-title-wrapper img {
@@ -119,22 +195,14 @@ footer {
         margin: auto 0.8em;
     }
 
+    .icons-wrapper > a > img {
+        width: 2em;
+    }
+
     .paragraph-wrapper {
         margin: auto 10em;
         font-size: 1.5em;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
         text-align: justify;
         letter-spacing: 0.03em;
     }
-
-    footer {
-        margin-top: 2em;
-        font-weight: 300;
-        font-family: "Roboto", sans-serif;
-    }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {...}
-} */
