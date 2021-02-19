@@ -1,3 +1,14 @@
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.active {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
 .container {
     margin: auto 1em;
     text-align: center;
@@ -7,6 +18,18 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
+
+
+.nav-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.right-end {
+    margin: 2em 15em 0 0;
+    justify-content: space-around;
+}
+
 
 .img-title-wrapper {
     margin: 3em auto 0 auto;
@@ -44,7 +67,7 @@ body {
 }
 
 .icons-wrapper > a > img {
-    width: 1.5em;
+    width: 1.8em;
 }
 
 footer {
@@ -73,13 +96,14 @@ footer {
     }
 
     .img-title-wrapper {
-        margin: 6em auto 0 auto;
+        margin: 5em auto 0 auto;
     }
 
     .img-title-wrapper h1 {
         font-weight: 700;
         margin-top: 1em;
         letter-spacing: 0.05em;
+        font-size: 2em;
     }
 
     .img-title-wrapper img {
