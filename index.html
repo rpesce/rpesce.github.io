@@ -5,44 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap" rel="stylesheet">
-    <title>Roberto Pesce</title>
+    <script src="https://kit.fontawesome.com/caa7848053.js" crossorigin="anonymous"></script>
+    <title>Roberto Pesce | Product Manager</title>
 </head>
+
 <body>
-    <div class="nav-wrap">
-        <div class="right-end">
-                <div class="link-wrap">
-                    <a href="https://www.robertopesce.me" class="active">EN</a>|<a href="https://www.robertopesce.me/index-pt.html">PT</a>
-                </div>
-        </div>
-    </div>
     <div class="container">
-        <div class="img-title-wrapper">
-            <img src="images/photo.png" alt="Photo">
-            <h1>Roberto Pesce</h1>
-        </div>
-        <div class="paragraph-wrapper">
-            <p>
-                I am a seasoned Product Manager, passionate about cutting edge technology, beautiful interfaces, and functional software.
-            </p>
-            <p>
-                Born in Brazil, I’m currently living in Amsterdam and working as a Product Marketing Manager at <a
-                    href="https://www.jetbrains.com/pycharm/" target="_blank">JetBrains PyCharm</a>.
-            </p>
-            <p>
-                I write and talk about product, tech, and UX. Find more information on my channels below and feel always free to reach out!
-            </p>
-        </div>
-        <div class="icons-wrapper">
-            <a href="https://medium.com/@robertopesce" target="_blank"><img src="images/medium_logo.png" alt="Medium"></a>
-            <a href="https://twitter.com/RobertoPesceJr" target="_blank"><img src="images/twitter_logo.png" alt="Twitter"></a>
-            <a href="mailto:robertopescee@hotmail.com" target="_blank"><img src="images/email_icon.png" alt="Email"></a>
-            <a href="#"><img src="images/youtube_logo.png" alt="YouTube"></a>
-            <a href="https://github.com/rpesce" target="_blank"><img src="images/github_logo.png" alt="GitHub"></a>
-            <a href="https://www.linkedin.com/in/robertopescejr/" target="_blank"><img src="images/linkedin_logo.png" alt="LinkedIn"></a>
-        </div>
-        <footer>
-            <small>©All rights reserved.</small>
+
+        <nav>
+            <ul class="nav-ul nav-ul-hamb">
+                <a href="#"><li class="nav-li-hamb"><img class="nav-flag nav-flag-main" src="images/us_flag.svg" alt="us flag"></li></a>
+            </ul>
+            <ul class="nav-ul nav-ul-list shadow hidden">
+                <a href="#"><li class="nav-li"><img class="nav-flag us-flag" src="images/us_flag.svg" alt="us flag"></li></a>
+                <a href="#"><li class="nav-li"><img class="nav-flag br-flag" src="images/br_flag.svg" alt="br flag"></li></a>
+            </ul>
+        </nav>
+
+        <main class="center">
+            <header>
+                <img class="header-photo" src="images/photo.png" alt="Roberto's photo" />
+                <h1 class="header-h1">Roberto Pesce</h1>
+            </header>
+
+            <section class="content">
+                <p class="content-paragraph english">
+                    Experienced Product Manager from Brazil currently living in Amsterdam and working as a PMM at
+                    <a class="content-paragraph--link-modifier"
+                       href="https://www.jetbrains.com/pycharm/"
+                       target="_blank">JetBrains PyCharm</a>.
+                    I'm passionate about cutting edge technology, beautiful interfaces, functional software, and
+                    love to write and talk about product management, tech, and UX. Find more about me on my channels,
+                    or reach out.
+                </p>
+                <p class="content-paragraph portuguese hidden">
+                    Product Manager vivendo na Holanda e trabalhando como Product Marketing Manager no time do
+                    <a class="content-paragraph--link-modifier"
+                       href="https://www.jetbrains.com/pycharm/"
+                       target="_blank">JetBrains PyCharm</a>.
+                    Sou apaixonado por tecnologia de ponta, lindas interfaces gráficas, software, web, e adoro
+                    escrever sobre gerenciamento de produto, tecnologia, UX, e mais.
+                </p>
+            </section>
+
+
+            <section class="icons">
+                <a class="icons-icon" href="https://medium.com/@robertopesce" target="_blank"><i class="fa-brands fa-medium fa-2x"></i></a>
+                <a class="icons-icon" href="https://twitter.com/RobertoPesceJr" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a class="icons-icon" href="mailto:robertopescee@hotmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a>
+<!--                <a class="icons-icon" href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>-->
+                <a class="icons-icon" href="https://github.com/rpesce" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a class="icons-icon" href="https://www.linkedin.com/in/robertopescejr/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+            </section>
+
+
+        </main>
+
+        <footer class="center">
+            <small class="english">©All rights reserved.</small>
+            <small class="portuguese hidden">©Todos os direitos reservados.</small>
         </footer>
+
     </div>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
