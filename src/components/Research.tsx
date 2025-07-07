@@ -6,33 +6,30 @@ const Research = () => {
     <section id="research" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-sm uppercase tracking-wide text-gray-500 mb-4">The Developer Positioning Sprint</p>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 leading-tight">
-            <span className="font-black">Work with Me To Solve Your Developer Positioning Challenge</span>
+            Work With Me To Solve Your Developer Positioning Challenge
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div>
+        <div className="text-center mb-16">
+          <div className="inline-block">
             <img 
               src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/eVlnPL/image/3728151/file/b6a14cae55420ac02ce22366d2f10cb9.png"
               alt="Roberto Pesce" 
-              className="w-full rounded-lg"
+              className="w-32 h-32 rounded-full mx-auto mb-4"
             />
-          </div>
-          <div>
-            <h3 className="text-3xl font-bold text-gray-900 mb-6">Roberto Pesce</h3>
+            <h3 className="text-2xl font-bold text-gray-900">Roberto Pesce</h3>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <div className="flex items-center mb-6">
-              <span className="text-4xl font-bold text-blue-600 mr-4">01</span>
-              <h3 className="text-2xl font-bold text-gray-900">Positioning Audit</h3>
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="text-center">
+            <div className="mb-6">
+              <span className="text-5xl font-bold text-orange-500 mb-4 block">01</span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Positioning Audit</h3>
             </div>
             
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-3 text-gray-700 text-left">
               <li>• Audit your website & landing pages</li>
               <li>• Review your top competitors</li>
               <li>• Listen to 2+ sales calls from your team</li>
@@ -55,13 +52,13 @@ const Research = () => {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <div className="flex items-center mb-6">
-              <span className="text-4xl font-bold text-blue-600 mr-4">02</span>
-              <h3 className="text-2xl font-bold text-gray-900">STP Workshops</h3>
+          <div className="text-center">
+            <div className="mb-6">
+              <span className="text-5xl font-bold text-yellow-500 mb-4 block">02</span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">STP Workshops</h3>
             </div>
             
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-3 text-gray-700 text-left">
               <li>• Discuss the audit results</li>
               <li>• Identify your core segment</li>
               <li>• Articulate your value proposition</li>
@@ -70,13 +67,13 @@ const Research = () => {
             </ul>
           </div>
 
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <div className="flex items-center mb-6">
-              <span className="text-4xl font-bold text-blue-600 mr-4">03</span>
-              <h3 className="text-2xl font-bold text-gray-900">Deliverables</h3>
+          <div className="text-center">
+            <div className="mb-6">
+              <span className="text-5xl font-bold text-blue-500 mb-4 block">03</span>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Deliverables</h3>
             </div>
             
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-3 text-gray-700 text-left">
               <li>• Positioning strategy document</li>
               <li>• Messaging framework</li>
               <li>• Production-ready homepage copy</li>
@@ -94,10 +91,10 @@ const Research = () => {
           </div>
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center">
           <a 
             href="#pricing" 
-            className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+            className="inline-block bg-orange-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-600 transition-colors"
           >
             Get a FREE Audit →
           </a>

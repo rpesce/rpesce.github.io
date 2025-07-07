@@ -3,28 +3,27 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="pricing" className="py-20 bg-gray-50">
+    <section id="pricing" className="py-20 bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-sm uppercase tracking-wide text-gray-500 mb-4">Pricing</p>
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">
-            Stop Putting off your foundational strategy. Request your free audit today.
+          <h2 className="text-4xl font-bold text-white mb-8">
+            Stop Putting Off Your Foundational Strategy. Request Your Free Audit Today.
           </h2>
         </div>
         
-        <div className="max-w-2xl mx-auto">
-          <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+        <div className="max-w-md mx-auto">
+          <div className="bg-white p-8 rounded-lg text-center">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">
               The Developer Positioning Sprint with Roberto Pesce
             </h3>
             
-            <div className="text-5xl font-bold text-blue-600 mb-8">
+            <div className="text-4xl font-bold text-gray-900 mb-6">
               EUR 4,500
             </div>
             
             <div className="text-left mb-8">
               <h4 className="font-bold text-gray-900 mb-4">What you get:</h4>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-1 text-gray-700 text-sm">
                 <li>• Positioning Audit</li>
                 <li>• 3 Workshop Sessions (Online)</li>
                 <li>• Primary Positioning Strategy</li>
@@ -37,7 +36,7 @@ const Contact = () => {
             
             <a 
               href="https://www.pescelab.com/schedule/get-started" 
-              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors mb-4"
+              className="inline-block bg-orange-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-orange-600 transition-colors mb-4 w-full"
             >
               Start With a FREE Audit
             </a>
@@ -55,23 +54,23 @@ const Contact = () => {
             className="mx-auto mb-12 h-16"
           />
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto text-white">
             <div>
-              <h4 className="font-bold text-gray-900 mb-4">Content Library</h4>
+              <h4 className="font-bold mb-4">Content Library</h4>
               <div className="space-y-2">
-                <a href="https://www.pescelab.com/resources/1-page-gtm-canvas" className="block text-blue-600 hover:underline">
+                <a href="https://www.pescelab.com/resources/1-page-gtm-canvas" className="block text-orange-400 hover:underline">
                   1-Page GTM Canvas
                 </a>
-                <a href="https://www.pescelab.com/resources/the-developer-marketing-guide" className="block text-blue-600 hover:underline">
+                <a href="https://www.pescelab.com/resources/the-developer-marketing-guide" className="block text-orange-400 hover:underline">
                   Developer Marketing Guide
                 </a>
               </div>
             </div>
             
             <div>
-              <h4 className="font-bold text-gray-900 mb-4">Company</h4>
+              <h4 className="font-bold mb-4">Company</h4>
               <div className="space-y-2">
-                <a href="https://www.pescelab.com/contact" className="block text-blue-600 hover:underline">
+                <a href="https://www.pescelab.com/contact" className="block text-orange-400 hover:underline">
                   Contact
                 </a>
               </div>
