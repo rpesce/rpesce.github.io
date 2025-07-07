@@ -4,25 +4,26 @@ import React from 'react';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-light text-gray-900 mb-12 text-center">About</h2>
-        <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-          <p className="mb-6">
-            The Pesce Lab is a computational biology research group at the University of Pennsylvania. 
-            We are interested in developing and applying computational methods to understand the 
-            complexity of biological systems.
-          </p>
-          <p className="mb-6">
-            Our research focuses on machine learning applications in genomics, with particular 
-            emphasis on single-cell analysis, spatial transcriptomics, and multi-omics integration. 
-            We develop statistical methods and software tools that enable researchers to extract 
-            meaningful insights from high-dimensional biological data.
-          </p>
-          <p>
-            We collaborate closely with experimental biologists and clinicians to ensure our 
-            computational tools address real biological questions and have practical impact 
-            in advancing our understanding of human health and disease.
-          </p>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <p className="text-sm uppercase tracking-wide text-gray-500 mb-4">The Problem</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 leading-tight">
+            <span className="font-black">You Want To Grow But Developers are a tough target audience</span>
+          </h2>
+        </div>
+        
+        <div className="grid md:grid-cols-1 gap-8 max-w-4xl mx-auto">
+          <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+            <p>
+              Developers are so different and you don't know <strong>which developer persona to focus</strong> on.
+            </p>
+            <p>
+              Your product has too many features and <strong>it's hard to say what really differentiates you</strong>.
+            </p>
+            <p>
+              Demand generation takes more effort and <strong>moves more slowly than you would wish</strong>.
+            </p>
+          </div>
         </div>
       </div>
     </section>

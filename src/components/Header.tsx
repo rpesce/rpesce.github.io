@@ -8,10 +8,10 @@ const Header = () => {
   const navItems = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
-    { name: 'Research', href: '#research' },
-    { name: 'Publications', href: '#publications' },
-    { name: 'Team', href: '#team' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Process', href: '#research' },
+    { name: 'Testimonials', href: '#testimonials' },
+    { name: 'About Roberto', href: '#team' },
+    { name: 'Pricing', href: '#pricing' }
   ];
 
   return (
