@@ -29,11 +29,11 @@ const Team = () => {
             </div>
           </div>
           
-          <div>
+          <div className="flex justify-center">
             <img 
               src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/eVlnPL/image/10285008/file/7aca74920dada3f1a543ff24b1495cb3.png"
               alt="Roberto Pesce" 
-              className="w-full rounded-lg shadow-lg"
+              className="w-4/5 rounded-lg shadow-lg"
             />
           </div>
         </div>

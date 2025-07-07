@@ -1,17 +1,13 @@
 
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Youtube } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
     { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Process', href: '#research' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'About Roberto', href: '#team' },
-    { name: 'Pricing', href: '#pricing' }
+    { name: 'Content Library', href: '#content-library' }
   ];
 
   return (
@@ -23,19 +19,26 @@ const Header = () => {
           </div>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:block">
-            <div className="flex items-center space-x-8">
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-700 hover:text-gray-900 text-sm font-light transition-colors duration-200"
-                >
-                  {item.name}
-                </a>
-              ))}
-            </div>
-          </nav>
+          <div className="hidden md:flex items-center space-x-8">
+            {navItems.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                className="text-gray-700 hover:text-gray-900 text-sm font-light transition-colors duration-200"
+              >
+                {item.name}
+              </a>
+            ))}
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors"
+            >
+              <Youtube size={16} />
+              YouTube
+            </a>
+          </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -62,6 +65,16 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-red-600 text-white px-3 py-2 rounded-lg text-base font-medium hover:bg-red-700 transition-colors mx-3"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Youtube size={16} />
+                YouTube
+              </a>
             </div>
           </div>
         )}

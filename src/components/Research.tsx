@@ -23,7 +23,7 @@ const Research = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="text-center">
+          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 text-center">
             <div className="mb-6">
               <span className="text-5xl font-bold text-orange-500 mb-4 block">01</span>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Positioning Audit</h3>
@@ -37,22 +37,9 @@ const Research = () => {
               <li>• Review customer feedback</li>
               <li>• Analyze your intake questionnaire</li>
             </ul>
-            
-            <div className="mt-6 space-y-4">
-              <img 
-                src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/eVlnPL/image/7194683/file/6efefbfef700e62bbe933e38ee3d496f.png"
-                alt="Audit Process" 
-                className="w-full rounded"
-              />
-              <img 
-                src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/eVlnPL/image/7194688/file/0cd133606923ecb572ac8df3f2277d27.png"
-                alt="Audit Results" 
-                className="w-full rounded"
-              />
-            </div>
           </div>
 
-          <div className="text-center">
+          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 text-center">
             <div className="mb-6">
               <span className="text-5xl font-bold text-yellow-500 mb-4 block">02</span>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">STP Workshops</h3>
@@ -67,7 +54,7 @@ const Research = () => {
             </ul>
           </div>
 
-          <div className="text-center">
+          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 text-center">
             <div className="mb-6">
               <span className="text-5xl font-bold text-blue-500 mb-4 block">03</span>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Deliverables</h3>
@@ -80,14 +67,6 @@ const Research = () => {
               <li>• Sales battle cards</li>
               <li>• Recommended acquisition channels</li>
             </ul>
-            
-            <div className="mt-6">
-              <img 
-                src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/eVlnPL/image/7194684/file/c3211834c6418538988777b45e7cc26b.png"
-                alt="Deliverables" 
-                className="w-full rounded"
-              />
-            </div>
           </div>
         </div>
 
