@@ -3,36 +3,26 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">About Our Lab</h2>
-            <div className="space-y-4 text-gray-600 leading-relaxed">
-              <p>
-                The Pesce Lab is a computational biology research group focused on developing 
-                innovative algorithms and computational methods to understand complex biological systems.
-              </p>
-              <p>
-                Our work spans multiple areas of bioinformatics, including genomics, proteomics, 
-                and systems biology. We combine mathematical modeling, statistical analysis, and 
-                machine learning approaches to tackle challenging problems in modern biology.
-              </p>
-              <p>
-                We collaborate with experimental biologists and clinicians to ensure our 
-                computational tools have real-world applications and can drive scientific discovery.
-              </p>
-            </div>
-          </div>
-          <div className="mt-10 lg:mt-0">
-            <div className="bg-gray-100 aspect-square rounded-lg flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <div className="w-24 h-24 bg-blue-200 rounded-full mx-auto mb-4"></div>
-                <p className="text-lg font-medium">Lab Image</p>
-                <p className="text-sm">Placeholder for lab photo</p>
-              </div>
-            </div>
-          </div>
+    <section id="about" className="py-20 bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-light text-gray-900 mb-12 text-center">About</h2>
+        <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+          <p className="mb-6">
+            The Pesce Lab is a computational biology research group at the University of Pennsylvania. 
+            We are interested in developing and applying computational methods to understand the 
+            complexity of biological systems.
+          </p>
+          <p className="mb-6">
+            Our research focuses on machine learning applications in genomics, with particular 
+            emphasis on single-cell analysis, spatial transcriptomics, and multi-omics integration. 
+            We develop statistical methods and software tools that enable researchers to extract 
+            meaningful insights from high-dimensional biological data.
+          </p>
+          <p>
+            We collaborate closely with experimental biologists and clinicians to ensure our 
+            computational tools address real biological questions and have practical impact 
+            in advancing our understanding of human health and disease.
+          </p>
         </div>
       </div>
     </section>

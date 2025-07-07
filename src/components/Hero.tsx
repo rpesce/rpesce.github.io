@@ -3,31 +3,18 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-20 pb-16 bg-gradient-to-b from-blue-50 to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Pesce Lab
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Advancing computational biology and bioinformatics research through innovative 
-            algorithms and data analysis techniques
-          </p>
-          <div className="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
-            <a
-              href="#research"
-              className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
-            >
-              Our Research
-            </a>
-            <a
-              href="#publications"
-              className="inline-block border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors duration-200"
-            >
-              Publications
-            </a>
-          </div>
-        </div>
+    <section id="home" className="pt-32 pb-20 bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-8 tracking-tight">
+          Pesce Lab
+        </h1>
+        <p className="text-xl md:text-2xl text-gray-700 mb-12 font-light leading-relaxed max-w-3xl mx-auto">
+          Computational Biology • Machine Learning • Data Science
+        </p>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          We develop computational methods and software tools to understand complex biological systems, 
+          with a focus on genomics, transcriptomics, and systems biology.
+        </p>
       </div>
     </section>
   );

@@ -1,75 +1,65 @@
 
 import React from 'react';
-import { Mail, Linkedin } from 'lucide-react';
 
 const Team = () => {
-  const teamMembers = [
-    {
-      name: "Dr. Alessandro Pesce",
-      role: "Principal Investigator",
-      bio: "PhD in Computational Biology. Research focus on genomics and machine learning.",
-      email: "apesce@university.edu",
-      linkedin: "#"
-    },
-    {
-      name: "Dr. Sarah Johnson",
-      role: "Postdoctoral Researcher",
-      bio: "PhD in Bioinformatics. Expertise in single-cell analysis and statistical methods.",
-      email: "sjohnson@university.edu",
-      linkedin: "#"
-    },
-    {
-      name: "Mike Chen",
-      role: "PhD Student",
-      bio: "Graduate student working on protein structure prediction using deep learning.",
-      email: "mchen@university.edu",
-      linkedin: "#"
-    },
-    {
-      name: "Lisa Rodriguez",
-      role: "Research Assistant",
-      bio: "Undergraduate researcher focusing on data analysis and visualization tools.",
-      email: "lrodriguez@university.edu",
-      linkedin: "#"
-    }
-  ];
-
   return (
-    <section id="team" className="py-16 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Team</h2>
-          <p className="text-xl text-gray-600">
-            Meet the researchers driving innovation in computational biology
-          </p>
+    <section id="team" className="py-20 bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-light text-gray-900 mb-12 text-center">Team</h2>
+        
+        <div className="mb-12">
+          <h3 className="text-xl font-medium text-gray-900 mb-6">Principal Investigator</h3>
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h4 className="text-lg font-medium text-gray-900 mb-2">Dr. Alessandro Pesce</h4>
+            <p className="text-gray-700 mb-3">Assistant Professor</p>
+            <p className="text-gray-600 leading-relaxed">
+              Dr. Pesce received his PhD in Computational Biology from MIT and completed 
+              postdoctoral training at Stanford University. His research focuses on developing 
+              machine learning methods for genomics and single-cell analysis.
+            </p>
+          </div>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {teamMembers.map((member, index) => (
-            <div
-              key={index}
-              className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 text-center hover:shadow-md transition-shadow duration-200"
-            >
-              <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-1">{member.name}</h3>
-              <p className="text-blue-600 font-medium mb-3">{member.role}</p>
-              <p className="text-gray-600 text-sm mb-4 leading-relaxed">{member.bio}</p>
-              <div className="flex justify-center space-x-3">
-                <a
-                  href={`mailto:${member.email}`}
-                  className="text-gray-400 hover:text-blue-600 transition-colors duration-200"
-                >
-                  <Mail size={18} />
-                </a>
-                <a
-                  href={member.linkedin}
-                  className="text-gray-400 hover:text-blue-600 transition-colors duration-200"
-                >
-                  <Linkedin size={18} />
-                </a>
-              </div>
+        <div className="mb-12">
+          <h3 className="text-xl font-medium text-gray-900 mb-6">Postdoctoral Researchers</h3>
+          <div className="space-y-4">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="text-lg font-medium text-gray-900 mb-2">Dr. Maria Rodriguez</h4>
+              <p className="text-gray-600">
+                Spatial transcriptomics and computational method development
+              </p>
             </div>
-          ))}
+          </div>
+        </div>
+        
+        <div className="mb-12">
+          <h3 className="text-xl font-medium text-gray-900 mb-6">Graduate Students</h3>
+          <div className="space-y-4">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="text-lg font-medium text-gray-900 mb-2">James Chen</h4>
+              <p className="text-gray-600">
+                PhD student working on machine learning for genomic variant interpretation
+              </p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="text-lg font-medium text-gray-900 mb-2">Sarah Johnson</h4>
+              <p className="text-gray-600">
+                PhD student developing methods for single-cell multi-omics integration
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <h3 className="text-xl font-medium text-gray-900 mb-6">Undergraduate Researchers</h3>
+          <div className="space-y-4">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="text-lg font-medium text-gray-900 mb-2">Alex Kim</h4>
+              <p className="text-gray-600">
+                Undergraduate researcher working on software development and data analysis
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
