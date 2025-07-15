@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
         
         <div className="max-w-lg mx-auto">
-          <div className="bg-white p-8 rounded-lg text-center">
+          <div className="bg-white p-8 rounded-lg text-center" style={{ width: '120%', marginLeft: '-10%' }}>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               The Developer Positioning Sprint with Roberto Pesce
             </h3>
@@ -35,7 +35,9 @@ const Contact = () => {
             </div>
             
             <a 
-              href="https://www.pescelab.com/schedule/get-started" 
+              href="https://form.typeform.com/to/jwIYby5p" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-orange-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-orange-600 transition-colors mb-4 w-full"
             >
               Start With a FREE Audit
