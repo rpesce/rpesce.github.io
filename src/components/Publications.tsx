@@ -12,11 +12,6 @@ const Publications = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg">
             <div className="text-center mb-4">
-              <img 
-                src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/image/1008256/file/defaa32137c7535b38925778aba07bc2.png"
-                alt="Profile" 
-                className="w-16 h-16 rounded-full mx-auto mb-4"
-              />
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-3 text-center">
               "...one of the most resourceful individuals I've ever met..."
@@ -32,11 +27,6 @@ const Publications = () => {
 
           <div className="bg-white p-6 rounded-lg">
             <div className="text-center mb-4">
-              <img 
-                src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/image/1008256/file/defaa32137c7535b38925778aba07bc2.png"
-                alt="Profile" 
-                className="w-16 h-16 rounded-full mx-auto mb-4"
-              />
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-3 text-center">
               "...a very deliberate and mindful person."
@@ -52,11 +42,6 @@ const Publications = () => {
 
           <div className="bg-white p-6 rounded-lg">
             <div className="text-center mb-4">
-              <img 
-                src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/image/1008256/file/defaa32137c7535b38925778aba07bc2.png"
-                alt="Profile" 
-                className="w-16 h-16 rounded-full mx-auto mb-4"
-              />
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-3 text-center">
               "...led product marketing with focus and clear goals..."
