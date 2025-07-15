@@ -6,8 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'Content Library', href: '#content-library' }
+    { name: 'Home', href: '/' }
   ];
 
   return (
@@ -15,7 +14,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <a href="#home" className="text-2xl font-light text-gray-900">Pesce Lab</a>
+            <a href="/" className="text-2xl font-light text-gray-900">Pesce Lab</a>
           </div>
           
           {/* Desktop Navigation */}
@@ -30,7 +29,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@pescelabmarketing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors"
@@ -66,7 +65,7 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@pescelabmarketing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-red-600 text-white px-3 py-2 rounded-lg text-base font-medium hover:bg-red-700 transition-colors mx-3"
