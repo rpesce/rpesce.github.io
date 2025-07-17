@@ -16,11 +16,8 @@ const Footer = () => {
             <div>
               <h4 className="font-bold mb-4">Content Library</h4>
               <div className="space-y-2">
-                <a href="https://www.pescelab.com/resources/1-page-gtm-canvas" className="block text-orange-400 hover:underline">
+                <a href="https://miro.com/miroverse/1-page-gtm-canvas/" className="block text-orange-400 hover:underline" target="_blank">
                   1-Page GTM Canvas
-                </a>
-                <a href="https://www.pescelab.com/resources/the-developer-marketing-guide" className="block text-orange-400 hover:underline">
-                  Developer Marketing Guide
                 </a>
               </div>
             </div>
