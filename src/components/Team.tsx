@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Linkedin } from 'lucide-react';
 
 const Team = () => {
   return (
@@ -26,6 +27,17 @@ const Team = () => {
               <p>
                 Count on me to help you fix your positioning so you can engage the right developer audience and grow.
               </p>
+            </div>
+            
+            <div className="mt-6">
+              <a 
+                href="https://www.linkedin.com/in/robertopescejr/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
             </div>
           </div>
           
