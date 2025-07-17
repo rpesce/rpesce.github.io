@@ -34,9 +34,9 @@ const Team = () => {
                 href="https://www.linkedin.com/in/robertopescejr/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors"
+                className="inline-flex items-center justify-center w-8 h-8 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
               >
-                <Linkedin className="w-4 h-4" />
+                <Linkedin className="w-6 h-6" />
               </a>
             </div>
           </div>
