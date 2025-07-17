@@ -38,7 +38,7 @@ const Footer = () => {
             KvK-number: 94084955 | Btw-id: NL005062915B73
           </p>
           <p>
-            © 2025 Pesce Lab - All Rights Reserved
+            © 2025 Pesce Lab - All Rights Reserved - Amsterdam
           </p>
         </div>
       </div>
