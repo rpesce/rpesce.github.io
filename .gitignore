@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Prevent manually editing built index.html
+/public/index.html
+/index.html
+/assets
