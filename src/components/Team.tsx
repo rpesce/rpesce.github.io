@@ -2,6 +2,7 @@
 import React from 'react';
 
 const Team = () => {
+  console.log('Rendering <Team />');
   return (
     <section id="team" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,13 +43,13 @@ const Team = () => {
             </div>
           </div>
           
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <img 
               src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/workspace/eVlnPL/image/10285008/file/7aca74920dada3f1a543ff24b1495cb3.png"
               alt="Roberto Pesce" 
-              className="w-4/5 rounded-lg shadow-lg"
+              className="w-4/5 rounded-lg"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
